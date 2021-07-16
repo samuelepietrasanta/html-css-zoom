@@ -32,6 +32,12 @@ main{
     margin-bottom:50px;
 }
 
+footer{
+    height: 60px;
+    background-color:rgb(41, 41, 41);
+    font-size:1.1em;
+}
+
 p>i{
     font-size: 5em;
     color:grey;
@@ -49,6 +55,38 @@ p>i{
     justify-content: center;
     width: 80%;
 }
+
+#footer-container{
+    height: 100%;
+    color:white;
+}
+
+#voice-and-video{
+    width: 15%;
+    height: 100%;
+}
+
+#other-settings{
+    width: 75%;
+    height: 100%;
+    padding: 0 8%;
+}
+
+#end-meeting{
+    width: 10%;
+    height:100%;
+    background-color: grey;
+    color:red;
+}
+
+#voice{
+    padding:10px;
+}
+
+#video{
+    padding:10px;
+}
+
 
 .clearfix::after{
     content:'';
@@ -96,3 +134,20 @@ p>i{
 .speaker{
     border: 5px solid rgb(85, 175, 11);
 }
+
+.up-footer-arrow{
+    width: 20px;
+    height: 100%;
+}
+
+.footer-icon{
+    font-size: 1.5em;
+    padding-left:10px;
+}
+
+.icon-container{
+    height: 100%;
+    margin-right:20px;
+}
+
+/* Devo mettere a posto il footer perché non si adatta alla restrizione dello schermo */
