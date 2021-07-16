@@ -1,0 +1,98 @@
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    height:60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header button{
+    background-color: grey;
+    border-radius: 5px;
+    border: none;
+    color:white;
+    margin-right: 10px;
+    margin-top:10px;
+    height:30px;
+    padding: 10px;
+}
+
+main{
+    height: 100vh;
+    margin-bottom:50px;
+}
+
+p>i{
+    font-size: 5em;
+    color:grey;
+}
+
+#main-container{
+    height: 100%;
+    width: 100%;
+}
+
+#webcam-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    width: 80%;
+}
+
+.clearfix::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+
+.fl{
+    float:left;
+}
+
+.aside-arrow{
+    width: 10%;
+    height: 100%;
+    color:white;
+}
+
+.aside-text{
+    padding:25px;
+}
+
+.single-webcam{
+    position: relative;
+    height: 120px;
+    width: 180px;
+    margin: 5px;
+    background-image: url(../img/Immagine-zoom1.jpg);
+    background-size: contain;
+}
+
+.participant-name{
+    position: absolute;
+    height: 25px;
+    background-color: rgba(39, 39, 39, 0.5);
+    bottom:0;
+    font-size:0.6em;
+    color:white;
+}
+
+.fa-microphone-slash{
+    font-size: 2em;
+    color:white;
+}
+
+.speaker{
+    border: 5px solid rgb(85, 175, 11);
+}
