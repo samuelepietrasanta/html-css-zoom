@@ -17,7 +17,7 @@ header{
 }
 
 header button{
-    background-color: grey;
+    background-color: rgb(58, 57, 57);
     border-radius: 5px;
     border: none;
     color:white;
@@ -34,8 +34,11 @@ main{
 
 footer{
     height: 60px;
+    width:100%;
     background-color:rgb(41, 41, 41);
     font-size:1.1em;
+    position: fixed;
+    bottom:0;
 }
 
 p>i{
@@ -62,21 +65,20 @@ p>i{
 }
 
 #voice-and-video{
-    width: 15%;
     height: 100%;
 }
 
 #other-settings{
-    width: 75%;
     height: 100%;
-    padding: 0 8%;
+    padding: 10px 6%;
 }
 
 #end-meeting{
-    width: 10%;
     height:100%;
     background-color: grey;
     color:red;
+    text-align: center;
+    line-height: 60px;
 }
 
 #voice{
@@ -85,6 +87,10 @@ p>i{
 
 #video{
     padding:10px;
+}
+
+#share-screen{
+    color: rgb(47, 255, 47);
 }
 
 
@@ -98,6 +104,10 @@ p>i{
     float:left;
 }
 
+.fr{
+    float:right;
+}
+
 .aside-arrow{
     width: 10%;
     height: 100%;
@@ -105,7 +115,13 @@ p>i{
 }
 
 .aside-text{
-    padding:25px;
+    vertical-align: middle;
+    padding-top:50vh;
+    padding-left:20px;
+}
+
+.left p{
+    text-align: end;
 }
 
 .single-webcam{
@@ -140,6 +156,10 @@ p>i{
     height: 100%;
 }
 
+.up-footer-arrow>i{
+    transform: translate(0 , 100%);
+} 
+
 .footer-icon{
     font-size: 1.5em;
     padding-left:10px;
@@ -147,7 +167,7 @@ p>i{
 
 .icon-container{
     height: 100%;
-    margin-right:20px;
+    margin:0 10px;
 }
 
 /* Devo mettere a posto il footer perché non si adatta alla restrizione dello schermo */
