@@ -28,6 +28,12 @@ header button{
     padding: 10px;
 }
 
+header button:hover{
+    background-color: darkgrey;
+    color:black;
+    cursor:pointer;
+}
+
 main{
     height: 100vh;
 }
@@ -86,6 +92,12 @@ p>i{
     line-height: 60px;
 }
 
+#end-meeting:hover{
+    background-color: red;
+    color:white;
+    cursor:pointer;
+}
+
 #voice{
     padding:10px;
 }
@@ -127,6 +139,10 @@ p>i{
 
 .left p{
     text-align: end;
+}
+
+.right p i{
+    color: cornflowerblue;
 }
 
 .single-webcam{
@@ -174,5 +190,3 @@ p>i{
     height: 100%;
     margin:0 10px;
 }
-
-/* Devo mettere a posto il footer perché non si adatta alla restrizione dello schermo */
